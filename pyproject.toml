@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "gpt2-tokenizer-and-model"
+version = "0.1.0"
+description = ""
+authors = ["dkunyk <d.kunyk@quantumobile.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.1.0"
+pandas = "^2.2.2"
+matplotlib = "^3.9.2"
+rich = "^13.7.1"
+tqdm = "^4.66.5"
+torch = "^2.4.0"
+tiktoken = "^0.7.0"
+openai = "^1.42.0"
+pytest = "^8.3.2"
+regex = "^2024.7.24"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
